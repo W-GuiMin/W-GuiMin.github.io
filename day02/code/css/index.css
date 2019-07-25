@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;
+}
+#indexBox{
+    width: 1326px;
+    height: 5348px;
+    margin: 100px auto;
+    background: paleturquoise;
+}
+#indexBox .box1{
+    width: 1326px;
+    height: 82px;
+    background: url(../images/index1.png);
+}
+#indexBox .box2{
+    width: 1326px;
+    height: 700px;
+    background: url(../images/index2.png);
+}
+#indexBox .box3{
+    width: 1326px;
+    height: 210px;
+    background: url(../images/index3.png);
+}
+#indexBox .box4{
+    width: 1326px;
+    height: 595px;
+    background: url(../images/index4.png);
+}
+#indexBox .box5{
+    width: 1326px;
+    height: 715px;
+    background: url(../images/index5.png);
+}
+#indexBox .box6{
+    width: 1326px;
+    height: 427px;
+    background: url(../images/index6.png);
+}
+#indexBox .box7{
+    width: 1326px;
+    height: 598px;
+    background: url(../images/index7.png);
+}
+#indexBox .box8{
+    width: 1326px;
+    height: 535px;
+    background: url(../images/index8.png);
+}
+#indexBox .box9{
+    width: 1326px;
+    height: 706px;
+    background: url(../images/index9.png);
+}
+#indexBox .box10{
+    width: 1326px;
+    height: 517px;
+    background: url(../images/index10.png);
+}
+#indexBox .box11{
+    width: 1326px;
+    height: 261px;
+    background: url(../images/index11.png);
+}

@@ -1,0 +1,31 @@
+#oneBox{
+    width: 1000px;
+    height: 1500px;
+    /* background-color: beige; */
+    margin: 100px auto;
+}
+.box1{
+    width: 1000px;
+    height: 102px;
+    background-color: #e6e6e6;
+}
+.box2{
+    width: 1000px;
+    height: 258px;
+    background-color: #0e107a;
+}
+.box3{
+    width: 1000px;
+    height: 405px;
+    background-color: #e8722b;
+}
+.box4{
+    width: 1000px;
+    height: 510px;
+    background-color: #0a993d;
+}
+.box5{
+    width: 1000px;
+    height: 225px;
+    background-color: #cccccc;
+}
