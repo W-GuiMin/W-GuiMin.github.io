@@ -5,7 +5,7 @@
 
 # day05
 <p><a href="https://w-guimin.github.io/day04/code/html/%E7%9F%B3%E5%AE%87%E7%BD%91%E7%BB%9C.html">石宇网络</a></p>
-<p><a href="https://w-guimin.github.io/day04/code/html/%E7%9F%B3%E5%AE%87%E7%BD%91%E7%BB%9C.html">卧龙控股</a></p>
+<p><a href="https://w-guimin.github.io/%E5%8D%A7%E9%BE%99%E6%8E%A7%E8%82%A1/html/%E5%8D%A7%E9%BE%99%E6%8E%A7%E8%82%A1.html">卧龙控股</a></p>
 
 
 # day06
