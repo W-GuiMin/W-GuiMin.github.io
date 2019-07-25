@@ -1,0 +1,34 @@
+.box {
+    width: 800px;
+    height: 600px;
+    border: 1px solid red;
+    margin: 100px auto;
+}
+
+.box .left {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: #ccc;
+}
+
+.box .left a {
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    line-height: 40px;
+    text-align: center;
+}
+
+.box .right {
+    float: right;
+    width: 600px;
+    height: 100%;
+    /* background: pink; */
+    overflow: hidden;
+}
+
+.box .right div {
+    height: 100%;
+}

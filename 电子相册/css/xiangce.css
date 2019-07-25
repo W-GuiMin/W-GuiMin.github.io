@@ -1,0 +1,59 @@
+#xc{
+    width:100%;
+    height:1000px;
+    background: #444;
+    overflow: hidden;
+}
+#xc .content{
+    width: 420px;
+    height: 323px;
+    background: #666;
+    border:1px solid #cdcdcd;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+}
+#xc .title{
+    height: 48px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+
+}
+#xc .left{
+    width: 282px;
+    height: 198px;
+    border: 1px #fff solid;
+    position: absolute;
+    left: 20px;
+    top:51px;
+    overflow: hidden;
+}
+#xc .left div{
+    width: 280px;
+    height: 196px;
+    border: 1px solid #89abe2;
+}
+#xc .left img{
+    width: 280px;
+    height: 196px;
+}
+
+#xc .right{
+    width: 79px;
+    height: 196px;
+    position: absolute;
+    right: 0px;
+    top: 48px;
+    overflow: auto;
+
+}
+#xc .right img{
+    width: 56px;
+    height: 39px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    margin-right: 4px;
+}
