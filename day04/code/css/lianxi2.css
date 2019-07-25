@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;}
+
+#zhanggui{
+    margin:auto;
+    overflow: hidden;
+}
+#zhanggui .zhanggui-head{
+    line-height: 32px;
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 83px;
+    text-align: center;
+}
+#zhanggui .zhanggui-title{
+    line-height: 18px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 61px;
+}
+#zhanggui .youshi{
+    width: 1100px;
+    height: 300px;
+    margin: auto;
+}
+#zhanggui .youshi div{
+    width: 257px;
+    height: 300px;
+    float: left;
+    margin-right: 24px;
+    box-shadow: 0 0 10px 0 #e7e7e7; 
+}
+#zhanggui .youshi img{
+    display: block;
+}
+#zhanggui .youshi h4{
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #444444;
+    margin-top: 26px;
+}
+#zhanggui .youshi p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #c5c5c5;
+    margin-top: 21px;
+    padding: 0px 12px;
+}
+

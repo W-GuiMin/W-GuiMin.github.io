@@ -1,0 +1,535 @@
+*{margin: 0;padding: 0;}
+body{
+    background: #282828;
+}
+#shiyu{
+    width: 1326px;
+    height: 5348px;
+    margin: 100px auto;
+    background: #ffffff;
+}
+#shiyu .header{
+    width: 1326px;
+    height: 82px;
+    background: #ffffff;
+}
+#shiyu .banner{
+    width: 1326px;
+    height: 700px;
+    background: url(../images/shiyu_banner.png);
+}
+#shiyu .main1{
+    width: 1326px;
+    height: 211px;
+    background: #1b252e;
+}
+#shiyu .main2{
+    width: 1326px;
+    height: 595px;
+    background: #ffffff;
+    overflow: hidden;
+}
+#shiyu .main3{
+    width: 1326px;
+    height: 716px;
+    background: #ebebeb;
+    overflow: hidden;
+
+}
+#shiyu .main4{
+    width: 1326px;
+    height: 428px;
+    background: url(../images/brand-bg.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#shiyu .main5{
+    width: 1326px;
+    height: 597px;
+    background: #ffffff;
+    overflow: hidden;
+}
+#shiyu .main6{
+    width: 568px;
+    height: 388px;
+    background: url(../images/about-bg.png);
+    padding-left: 758px;
+    padding-top: 148px;
+}
+#shiyu .main7{
+    width: 1326px;
+    height: 706px;
+    background: #ffffff;
+    overflow: hidden;
+}
+#shiyu .main8{
+    width: 1326px;
+    height: 514px;
+    background: #ebebeb;
+    overflow: hidden;
+}
+#shiyu .footer{
+    width: 1326px;
+    height: 261px;
+    border-top: 2px solid red;
+    background: #1b252e;
+    overflow: hidden;
+    color: #8a929c;
+}
+h1{
+    width: 244px;
+    height: 82px;
+    text-indent: -9999px;
+    background: url(../images/logo.png) no-repeat right center;
+    float: left;
+}
+#shiyu .header ul{
+    height: 82px;
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+#shiyu .header ul li{
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 28px;
+    margin-right: 20px;
+    float: left;
+}
+
+#shiyu .header ul a{
+    text-decoration: none;
+    color: #000;
+    padding: 17px 10px;
+}
+#shiyu .header ul a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+#shiyu .main1 .main1-left{
+    width: 768px;
+    height: 211px;
+    float: left;
+    padding-left: 73px;
+    padding-right: 143px;
+    overflow: hidden;
+    color: #fefefe;
+
+}
+#shiyu .main1 .main1-left h3{
+    margin-top: 55px;
+    font-size: 23px;
+    line-height: 23px; 
+}
+#shiyu .main1 .main1-left p{
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+#shiyu .main1 .main1-right{
+    width: 164px;
+    height: 54px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background: #fff;
+    margin-top: 78px;
+    float: left;
+    text-align: center;
+    line-height: 54px;
+}
+#shiyu .main2 h2{
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #212121;
+    margin-top: 90px;
+}
+#shiyu .main2 .main2Box{
+    width: 1180px;
+    border-top: 1px solid #dedede;
+    margin: 60px auto;
+}
+
+#shiyu .main2 .main2Box .main2-box{
+    height: 218px;
+    width: 1062px;
+    margin: 46px auto 0px;
+}
+#shiyu .main2 .main2Box .main2-box .main2-box1,
+#shiyu .main2 .main2Box .main2-box .main2-box2,
+#shiyu .main2 .main2Box .main2-box .main2-box3,
+#shiyu .main2 .main2Box .main2-box .main2-box4{
+    width: 202px;
+    height: 110px;
+    float: left;
+    margin-right: 84px;
+    margin-bottom: 58px;
+}
+#shiyu .main2 .main2Box .main2-box .main2-box1{
+    background: url(../images/s1.jpg) no-repeat center center;
+}
+#shiyu .main2 .main2Box .main2-box .main2-box2{
+    background: url(../images/s2.jpg) no-repeat center center;
+}
+#shiyu .main2 .main2Box .main2-box .main2-box3{
+    background: url(../images/s3.jpg) no-repeat center center;
+}
+#shiyu .main2 .main2Box .main2-box .main2-box4{
+    background: url(../images/s4.jpg) no-repeat center center;
+}
+#shiyu .main2 .main2Box .main2-box .main2-box5,
+#shiyu .main2 .main2Box .main2-box .main2-box6,
+#shiyu .main2 .main2Box .main2-box .main2-box7,
+#shiyu .main2 .main2Box .main2-box .main2-box8{
+    width: 210px;
+    height: 50px;
+    float: left;
+    margin-right: 73px;
+}
+#shiyu .main2 .main2Box .main2-box .pTitle{
+    font-size: 23px;
+    line-height: 23px;
+    color: #333333;
+    text-align: center;
+}
+#shiyu .main2 .main2Box .main2-box .pText{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    margin-top: 15px;
+    color: #999;
+}
+
+
+#shiyu .main3 h2{
+    line-height: 31px;
+    font-size: 31px;
+    text-align: center;
+    margin-top: 71px;
+}
+#shiyu .main3 h2{
+    line-height: 31px;
+    font-size: 31px;
+    text-align: center;
+    margin-top: 71px;
+    color: #333333;
+}
+#shiyu .main3 .pTitle{
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 21px;
+    color: #999999;
+}
+
+#shiyu .main3 .main3Box{
+    width: 1180px; 
+    height: 444px;
+    margin: 40px auto;
+}
+#shiyu .main3 .main3Box .main3-box{
+    width: 272px;
+    height: 212px;
+    background: #fff;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+#shiyu .main3 .main3Box .main3-box img{
+    margin: 8px;
+    display: block;
+}
+#shiyu .main3 .main3Box .main3-box p{
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: #5d5d5d;
+}
+
+
+#shiyu .main4 .main4Box{
+    width: 850px;
+    height: 142px;
+    margin-top: 130px;
+    margin-left: 285px;
+}
+#shiyu .main4 .main4Box .p1,#shiyu .main4 .main4Box .p2{
+    font-size: 84px;
+    line-height: 84px;
+    color: red;
+    font-weight: bolder;
+    font-family: "黑体";
+}
+#shiyu .main4 .main4Box .p1{
+    float: left;
+}
+#shiyu .main4 .main4Box .p2{
+    float: right;
+}
+#shiyu .main4 .main4Box .p3,#shiyu .main4 .main4Box .p4{
+    height: 88px;
+    font-size: 29px;
+    line-height: 88px;
+    color: #fefefe;
+    text-align: center;
+
+}
+
+#shiyu .main5 h2{
+    font-size: 31px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 79px;
+    color: #333333;
+}
+#shiyu .main5 .pTitle{
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: #999999;
+}
+#shiyu .main5 .main5Box{
+    width: 700px;
+    height: 208px;
+    margin: 89px auto;
+}
+#shiyu .main5 .main5Box .main5-box{
+    width: 114px;
+    height: 73px;
+    float: left;
+    margin-right: 81px;
+    margin-bottom: 62px;
+}
+#shiyu .main5 .main5Box .main5-box h3{
+    line-height: 31px;
+    font-size: 31px;
+    color: red;
+    text-align: center;
+}
+#shiyu .main5 .main5Box .main5-box p{
+    line-height: 16px;
+    font-size: 16px;
+    margin-top: 26px;
+    color: #b1b1b1;
+    text-align: center;
+}
+#shiyu .main6 h2{
+    line-height: 38px;
+    font-size: 38px;
+    color: #444444;
+    margin-bottom: 33px;
+    font-weight: normal;
+}
+#shiyu .main6 p{
+    height: 33px;;
+    line-height: 33px;
+    font-size: 15px;
+    color: #909191;
+}
+#shiyu .main6 div{
+    width: 156px;
+    height: 49px;
+    margin-top: 82px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 49px;
+    font-size: 12px;
+}
+
+#shiyu .main7 h2{
+    line-height: 31px;
+    font-size: 31px;
+    text-align: center;
+    margin-top: 86px;
+    color: #333333;
+}
+#shiyu .main7 .pTitle{
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #7f7f7f;
+    margin-top: 47px;
+}
+#shiyu .main7 h3{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-top: 21px;
+}
+#shiyu .main7 .main7Box{
+    width: 1156px;
+    height: 90px;
+    margin: auto;
+    margin-top: 80px;
+}
+#shiyu .main7 .main7Box .main7-box1,
+#shiyu .main7 .main7Box .main7-box2,
+#shiyu .main7 .main7Box .main7-box3{
+    width: 224px;
+    height: 58px;
+    border: 1px solid #cacaca;
+    float: left;
+    margin-right: 53px;
+    padding-left: 124px;
+    padding-top: 30px;
+}
+#shiyu .main7 .main7-box4{
+    width: 344px;
+    height: 84px;
+    border: 3px solid #000;
+    margin: 140px auto 87px;
+}
+#shiyu .main7 .weixin1{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 586px;
+    margin-top: 68px;
+    background: url(../images/weixin.png) no-repeat;
+    background-size: 100% 100%;
+}
+#shiyu .main7 .weixin2{
+    height: 12px;;
+    width: 150px;
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    float: left;
+    margin-left: 586px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+#shiyu .main7 .main7Box .main7-box1{
+    background: url(../images/7-QQ.png) no-repeat;
+}
+#shiyu .main7 .main7Box .main7-box2{
+    background: url(../images/7-wb.png) no-repeat;
+}
+#shiyu .main7 .main7Box .main7-box3{
+    background: url(../images/7-wx.png) no-repeat;
+}
+#shiyu .main7 .main7Box h4{
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+}
+#shiyu .main7 .main7Box p{
+    font: 9px;
+    line-height: 9px;
+    margin-top: 12px;
+    color: #999999;
+}
+
+
+#shiyu .main8 .main8Box{
+    width: 1180px;
+    height: 284px;
+    margin: 100px auto;
+    background: #ebebeb;
+}
+#shiyu .main8 .main8Box div{
+    width: 272px;
+    float: left;
+    margin-right: 30px;
+}
+#shiyu .main8 .main8Box .main8-box1,
+#shiyu .main8 .main8Box .main8-box2,
+#shiyu .main8 .main8Box .main8-box3,
+#shiyu .main8 .main8Box .main8-box4{
+    height: 175px;
+}
+#shiyu .main8 .main8Box .main8-box5{
+    width: 272px;
+    height: 109px;
+    background: #fefefe;
+    overflow: hidden;
+}
+#shiyu .main8 .main8Box .main8-box1{
+    width: 273px;
+    background: url(../images/seo-1.png) no-repeat;
+}
+#shiyu .main8 .main8Box .main8-box2{
+    background: url(../images/seo-2.png) no-repeat;
+}
+#shiyu .main8 .main8Box .main8-box3{
+    width: 273px;
+    background: url(../images/seo-3.png) no-repeat;
+}
+#shiyu .main8 .main8Box .main8-box4{
+    background: url(../images/seo-4.png) no-repeat;
+    margin-right: 0px;
+}
+#shiyu .main8 .main8Box .main8-box5 h2{
+    margin-top: 27px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #333333;
+}
+#shiyu .main8 .main8Box .main8-box5 p{
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 18px;
+    color: #808080;
+    padding: 0px 4px;
+}
+#shiyu .footer .footerBox{
+    width: 1180px;
+    margin: 28px auto;
+    height: 112px;
+    border-bottom: 1px solid #313a43;
+    overflow: hidden;
+}
+#shiyu .footer .footerBox .footer-box{
+    width: 1050px;
+    height: 24px;
+    margin-top: 52px;
+    margin-left: 63px;
+}
+#shiyu .footer .footerBox .footer-box div{
+    height: 24px;
+    margin-right: 94px;
+    float: left;
+    font-size: 12px;
+    padding-left: 30px;
+}
+#shiyu .footer .footerBox .footer-box .footer-box1{
+    background: url(../images/f-1.png) no-repeat;
+}
+#shiyu .footer .footerBox .footer-box .footer-box2{
+    background: url(../images/f-2.png) no-repeat;
+}
+#shiyu .footer .footerBox .footer-box .footer-box3{
+    background: url(../images/f-3.png) no-repeat;
+}
+#shiyu .footer .footerBox .footer-box .footer-box4{
+    margin-right: 0px;
+    background: url(../images/f-4.png) no-repeat;
+}
+
+#shiyu .footer .p1{
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    word-spacing: 25px;
+}
+#shiyu .footer .p2{
+    margin-top: 14px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    word-spacing: 5px;
+}
+#shiyu .footer .p3{
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
