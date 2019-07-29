@@ -1,0 +1,45 @@
+
+#xiaolu{
+    width: 100%;
+}
+.content{
+    width: 1200px;
+    height: 1324px;
+    margin: auto;
+    background: papayawhip;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+#xiaolu .main3 .title{
+    height: 53px;
+    padding-top: 40px;
+}
+#xiaolu .main3 .list{
+    width: 830px;
+    height: 15px;
+}
+#xiaolu .main3 .list li{
+    height: 12px;
+    text-align: center;
+    margin-right: 26px;
+    font-size: 12px;
+    color: #333;
+    float: left;
+}
+#xiaolu .main3 .list li a{
+    color: #333;
+}
+#xiaolu .main3 .list li a:hover{
+    color: #ffa000;
+}
+#xiaolu .main3 .title .s1 {
+    height: 12px;
+    font-size: 12px;
+    color: #9b9b9b;
+}
