@@ -15,4 +15,4 @@
 <a href="https://w-guimin.github.io/%E7%94%B5%E5%AD%90%E7%9B%B8%E5%86%8C/html/%E7%94%B5%E5%AD%90%E7%9B%B8%E5%86%8C.html">电子相册</a>
 
 # day09
-<a href="https://w-guimin.github.io/day09/html/%E5%B0%8F%E9%B9%BF.html">小鹿</a>
+<a href="https://w-guimin.github.io/day09%EF%BC%88%E5%AE%8C%E6%95%B4%EF%BC%89/html/%E5%B0%8F%E9%B9%BF.html">小鹿</a>
