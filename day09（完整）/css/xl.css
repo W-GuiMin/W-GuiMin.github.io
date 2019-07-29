@@ -1,0 +1,886 @@
+#xl{
+    width: 100%;
+}
+.content{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+/*------- header区域-------*/
+#xl .header{
+    height: 70px;
+    background: #fff;
+}
+#xl .header .title{
+    width: 72px;
+    height: 100%;
+    text-indent: -9999px;
+    background: url(../images/logo_1.png) no-repeat 0px center;
+}
+#xl .header .list{
+    height: 70px;
+    padding-left: 600px;
+}
+#xl .header .list .ls{
+    height: 70px;
+    padding: 0px 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 70px;
+}
+#xl .header .list .ls a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #303030;
+}
+#xl .header .list .ls a:hover{
+    color: #ffa000;
+}
+
+/*------- nav区域-------*/
+#xl .nav{
+    height: 350px;
+    background: url(../images/banner.png) no-repeat center center;
+}
+#xl .nav .nav1{
+    width: 240px;
+    height: 338px;
+    padding-top: 12px;
+    background: #abacaf;
+    opacity: 0.8;
+    position: relative;
+}
+#xl .nav .nav1 .ls{
+    height: 66px;
+    padding-left: 104px;
+    font-size: 18px;
+    line-height: 66px;
+}
+#xl .nav .nav1 .n1{
+    background: url(../images/icon-b-1.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n2{
+    background: url(../images/icon-b-2.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n3{
+    background: url(../images/icon-b-3.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n4{
+    background: url(../images/icon-b-4.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n5{
+    background: url(../images/icon-b-5.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .ls .a1{
+    display: block;
+    color: #fff;
+}
+#xl .nav .nav1 .ls:hover{
+    opacity: 0.9;
+}
+#xl .nav .nav1 .n1:hover{
+    background: #979796 url(../images/icon-b-1.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n2:hover{
+    background: #979796 url(../images/icon-b-2.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n3:hover{
+    background: #979796 url(../images/icon-b-3.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n4:hover{
+    background: #979796 url(../images/icon-b-4.png) no-repeat 65px center;
+}
+#xl .nav .nav1 .n5:hover{
+    background: #979796 url(../images/icon-b-5.png) no-repeat 65px center;
+}
+
+#xl .nav .nav1 .nav2{
+    position: absolute;
+    left: 240px;
+    top: 0px;
+    width: 600px;
+    height: 310px;
+    background: #979796;
+    opacity: 0.9;
+    display: none;
+    cursor: pointer;
+}
+#xl .nav .nav1 .ls:hover .nav2{
+    display: block;
+    padding-top: 40px;
+}
+#xl .nav .nav1 .nav2 .ls2{
+    float: left;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 60px;
+    color: #fff;
+    padding: 0px 37px;
+}
+#xl .nav .nav1 .nav2 .ls2 .a2{
+    color: #fff;
+}
+#xl .nav .nav1 .nav2 .ls2 .a2:hover{
+    color: #ffa000;
+}
+
+
+/*------- main1区域-------*/
+#xl .main1{
+    height: 1258px;
+    background: #fff;
+}
+#xl .main1 .tb{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#xl .main1 .tb ul li{
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+#xl .main1 .tb ul li img{
+    display: inline-block;
+    margin-bottom: 23px;
+}
+#xl .main1 .miji{
+    height: 27px;
+    /* margin-bottom: 20px; */
+}
+#xl .main1 .miji .s1{
+    font-size: 27px;
+    line-height: 27px;
+    color: #333;
+    font-weight: 600px;
+    margin-right: 20px;
+}
+#xl .main1 .miji .s2{
+    font-size: 12px;
+    line-height: 27px;
+    color: #333;
+}
+#xl .main1 .zhizhao{
+    padding-top: 20px;
+    padding-bottom: 41px;
+}
+#xl .main1 .zhizhao .title{
+    font-size: 15px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    background: #151820;
+    opacity: 0.7;
+}
+#xl .main1 .zhizhao .left{
+    width: 540px;
+    height: 360px;
+    background: salmon;
+    margin-right: 10px;
+    position: relative;
+}
+#xl .main1 .zhizhao .left .title{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#xl .main1 .zhizhao .center{
+    width: 262px;
+    height: 360px;
+    margin-right: 10px;
+}
+#xl .main1 .zhizhao .center img{
+    width: 100%;
+    height: 100%;
+}
+#xl .main1 .zhizhao .center .c1{
+    width: 262px;
+    height: 175px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#xl .main1 .zhizhao .center .c1 .title{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+#xl .main1 .zhizhao .center .c2{
+    width: 262px;
+    height: 175px;
+    position: relative;
+}
+#xl .main1 .zhizhao .center .c2 .title{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+#xl .main1 .zhizhao .right{
+    width: 378px;   
+    height: 360px;
+}
+
+#xl .main1 .nav3{
+    padding-bottom: 31px;
+}
+#xl .main1 .nav3 .list .nli{
+    text-align: center;
+    margin-right: 26px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333;
+    float: left;
+}
+#xl .main1 .nav3 .nli a{
+    color: #333;
+}
+#xl .main1 .nav3 .nli a:hover{
+    color: #ffa000;
+}
+#xl .main1 .nav3 .s1 a{
+    height: 12px;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+
+#xl .box .list .list1 {
+    width: 570px;
+    height: 160px;
+    float: left;
+    margin-bottom: 30px;
+}
+#xl .box .list .list1 img{
+    width: 240px;
+    height: 160px;
+}
+#xl .box .list .list1:nth-child(2n+1) {
+    margin-right: 60px;
+}
+#xl .box .list .list1 .list1-right{
+    width: 300px;
+    overflow: hidden;
+    Text-overflow:ellipsis;
+    Display:-webkit-box;
+    -webkit-line-clamp:3; 
+    -webkit-box-orient:vertical;
+    /* width: 300px; */
+    padding-left: 30px;
+}
+#xl .box .list .list1 .list1-right .title{
+    font-size: 18px;
+    line-height: 34px;
+    color: #333;
+}
+#xl .box .list .list1 .list1-right .p1{
+    color: #c8c8c8;
+    font-size: 12px;
+    line-height: 18px;
+}
+#xl .box .list .list1 .list1-right .p1 .sp1{
+    margin-right: 43px;
+}
+#xl .box .list .list1 .list1-right .ptext{
+    margin-top: 17px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #333;
+}
+
+
+
+/*------- main2区域-------*/
+#xl .main2{
+    height: 673px;
+    background: #f8f8f8;
+}
+#xl .main2 .qiuzhu{
+    padding-top: 41px;
+    padding-bottom: 21px;
+    /* margin-bottom: 20px; */
+}
+#xl .main2 .qiuzhu .s1{
+    font-size: 27px;
+    line-height: 27px;
+    color: #333;
+    font-weight: 600px;
+    margin-right: 20px;
+}
+#xl .main2 .qiuzhu .s2{
+    font-size: 12px;
+    line-height: 27px;
+    color: #333;
+}
+#xl .main2 .qiuzhu .s3 a{
+    font-size: 12px;
+    line-height: 27px;
+    color: #9b9b9b;
+}
+#xl .main2 .help{
+    height: 130px;
+    background: url(../images/bg-help.png) no-repeat;
+    padding-left: 250px;
+    padding-top: 52px;
+    position: relative;
+}
+#xl .main2 .help .htitle{
+    font-size: 28px;
+    line-height: 28px;
+    color: #333;
+    font-weight: bold;
+}
+#xl .main2 .help .hp{
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 31px;
+}
+#xl .main2 .help .ha{
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    width: 180px;
+    height: 60px;
+    background: #ffa000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    color: #fff;
+}
+#xl .main2 .help .ha .wx{
+    position: absolute;
+    width: 225px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background: #fff;
+    text-align: center;
+    border-radius: 30px;
+    top:-300px;
+    left: -15px;
+    display: none;
+}
+#xl .main2 .help .ha .wx .saoma{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    white-space: pre-line;
+}
+#xl .main2 .help .ha .wx img{
+    width: 200px;
+    height: 200px;
+}
+#xl .main2 .help .ha:hover .wx{
+    display: block;
+}
+
+#xl .main2 .list2{
+    padding-top:30px;
+    padding-bottom: 40px;
+}
+#xl .main2 .list2 .l2{
+    background: #fff;
+    margin-right: 40px;
+}
+#xl .main2 .list2 .l2 .bx2{
+    width: 270px;
+    height: 335px;
+}
+.main2 .list2 .l2 .bx2 .bx2-top{
+    width: 270px;
+    height: 180px;
+    background-size: 100% 100%;
+    position: relative;
+}
+.main2 .list2 .l2 .bx2 .t1{
+    background-image: url(../images/main2-1.jpeg);
+}
+.main2 .list2 .l2 .bx2 .t2{
+    background-image: url(../images/main2-3.jpeg);
+}
+.main2 .list2 .l2 .bx2 .t3{
+    background-image: url(../images/main2-2.png);
+}
+.main2 .list2 .l2 .bx2 .t4{
+    background-image: url(../images/main2-4.jpeg);
+}
+.main2 .list2 .l2 .bx2 .bx2-top p{
+    width: 100%;
+    height: 100%;  
+    background: #333;
+    opacity: 0.6;
+}
+.main2 .list2 .l2 .bx2 .bx2-top a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 180px;
+}
+.main2 .list2 .l2 .bx2 .bx2-text{
+    width: 230px;
+    margin: auto;
+}
+.main2 .list2 .l2 .bx2 .bx2-center{
+    border-bottom: 1px dashed #e8e8e8;
+    padding: 14px 0px;
+}
+.main2 .list2 .l2 .bx2 .bx2-center span{
+    width: 66px;
+    height: 26px;
+    display: block;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    color: #333;
+    margin-right: 16px;
+    background: #fdf2e9;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.main2 .list2 .l2 .bx2 .bx2-bottom{
+    padding-bottom: 13px;
+}
+.main2 .list2 .l2 .bx2 .bx2-bottom a{
+    display: block;
+    font-size: 12px;
+    margin-top: 12px;
+    color: #666;
+    background: url(../images/icon-q.png) no-repeat;
+    padding-left: 28px;
+    width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*------- main3区域-------*/
+#xl .main3{
+    height: 1046px;
+    background: #fff;
+}
+#xl .main3 .zixunshi{
+    padding-top: 26px;
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
+}
+#xl .main3 .zixunshi .s1{
+    font-size: 27px;
+    line-height: 27px;
+    color: #333;
+    font-weight: 600px;
+    margin-right: 20px;
+}
+#xl .main3 .zixunshi .s2{
+    font-size: 12px;
+    line-height: 27px;
+    color: #333;
+}
+#xl .main3 .chazhao{
+    position: relative;
+    height: 350px;
+    background: url(../images/bg-counsoler.png);
+}
+#xl .main3 .chazhao .bg{
+    width: 365px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    left:30px;
+    background: #000;
+    opacity: 0.7;
+}
+#xl .main3 .chazhao .cz1{
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left:30px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 28px;
+}
+#xl .main3 .chazhao .cz1 .ctitle{
+    padding: 30px 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+}
+#xl .main3 .chazhao .cz1 .list3 .l3{
+    width: 90px;
+    height: 36px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#xl .main3 .chazhao .cz1 .list3 .l3 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 36px;
+    color: #333;
+}
+#xl .main3 .chazhao .cz1 .list3 .l3:hover{
+    background: #ffa000;
+}
+#xl .main3 .chazhao .cz1 .list3 .l3:hover a{
+    color: #fff;
+}
+#xl .main3 .nav4{
+    padding-top: 41px;
+}
+#xl .main3 .nav4 .list .nli{
+    text-align: center;
+    margin-right: 26px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333;
+    float: left;
+    position: relative;
+}
+#xl .main3 .nav4 .nli a{
+    color: #333;
+}
+#xl .main3 .nav4 .nli a:hover{
+    color: #ffa000;
+}
+#xl .main3 .nav4 .s1 a{
+    height: 12px;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+#xl .main3 .nav4 .nli:hover .list2-1{
+    display: none;
+}
+#xl .main3 .nav4 .n1:hover .list2-1{
+    display: block;
+}
+#xl .main3 .nav4 .n2:hover .list2-2{
+    display: block;
+}
+
+#xl .main3 .nav4 .list .list2-1{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 1200px;
+    height: 274px;   
+}
+#xl .main3 .nav4 .list .list2-2{
+    position: absolute;
+    top: 50px;
+    left: -90.5px;
+    width: 1200px;
+    height: 274px;   
+}
+#xl .main3 .nav4 .list .list2 .nli2{
+    width: 224px;
+    height: 274px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.main3 .nav4 .list .list2 .nli2 h3{
+    position: absolute;
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+    bottom: 22px;
+}
+.main3 .nav4 .list .list2 .nli2 .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 134px;
+    color: #fff;
+    background: #f19807;
+    opacity: 0.9;
+    display: none;
+}
+.main3 .nav4 .list .list2 .nli2 .text h4{
+    font-size: 22px;
+    line-height: 22px;
+    margin-top: 21px;
+}
+.main3 .nav4 .list .list2 .nli2 .text p{
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.main3 .nav4 .list .list2 .nli2:hover .text{
+    display: block;
+}  
+.main3 .nav4 .list .list2-2{
+    display: none;
+}
+#xl .main3 .tuandui{
+    height: 124px;
+    margin-top: 305px;
+    padding: 76px 150px 30px 250px;
+    color: #333;
+    position: relative;
+    background: url(../images/300bg.png) no-repeat center 30px;
+}
+#xl .main3 .tuandui h2{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+}
+#xl .main3 .tuandui p{
+    font-size: 23px;
+    line-height: 23px;
+    margin-top: 30px;
+}
+#xl .main3 .tuandui span{
+    font-size:14px;
+    line-height: 14px;
+}
+#xl .main3 .tuandui a{
+    position: absolute;
+    display: block;
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    background: #ffa000;
+    color: #fff;
+    border-radius: 30px;
+    right: 160px;
+    bottom: 105px;
+}
+
+
+
+/*------- main4区域-------*/
+#xl .main4{
+    height: 429px;
+    background: #f8f8f8;
+}
+#xl .main4 .baodao{
+    padding-top: 50px;
+    padding-bottom: 21px;
+}
+#xl .main4 .baodao .sp1{
+    font-size: 17px;
+    line-height: 17px;
+    color: #333;
+}
+#xl .main4 .baodao .sp2{
+    font-size: 12px;
+    line-height: 17px;
+    color: #9b9b9b;
+}
+#xl .main4 .list3 .l3{
+    width: 232px;
+    height: 85px;
+    margin-right: 30px;
+    background: url(../images/dian.png) no-repeat 20px 31px,url(../images/bg-report-1.png) no-repeat;
+    padding: 20px 112px 15px 36px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+}
+#xl .main4 .hezuo{
+    padding-top: 40px;
+    padding-bottom: 21px;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300;
+}
+#xl .main4 .list4 .l4{
+    margin-right: 24px;
+}
+
+
+/*------- footer区域-------*/
+#xl .footer{
+    height: 626px;
+    background: #1b1b1b;
+}
+#xl .footer .footer1{
+    /* height: 40px; */
+    padding-top: 60px;
+    padding-bottom: 62px;
+    border-bottom: 1px solid #333;
+}
+#xl .footer .footer1 .list5{
+    width: 100%;
+}
+#xl .footer .footer1 .list5 .l5{
+    width: 200px;
+    height: 38px;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+    background: #494949;
+}
+#xl .footer .footer1 .list5 .l5 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #a4a4a4;
+}
+#xl .footer .footer1 .list5 .l5:active{
+    background: #323232;
+}
+#xl .footer .footer1 .box{
+    overflow: hidden;
+    margin-top: 20px;
+    height: 54px;
+}
+#xl .footer .footer1 .box .text{
+    height: 100%;
+    word-spacing: 35px;
+}
+#xl .footer .footer1 .box .text a{
+    font-size: 12px;
+    line-height: 12px;
+    color: #5b5b5b;
+}
+#xl .footer .footer2{
+    padding-top: 60px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #333;
+}
+#xl .footer .footer2 dl{
+    margin-right: 100px;
+}
+#xl .footer .footer2 dl dt{
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 22px;
+    color: #e8e8e8;
+}
+#xl .footer .footer2 dl dd a{
+    font-size: 12px;
+    line-height: 12px;
+    color: #c8c8c8;
+    margin-bottom: 16px;
+}
+#xl .footer .footer2 .rbox{
+    width: 298px;
+    height: 150px;
+    position: relative;
+}
+#xl .footer .footer2 .rbox .kf{
+    font-size: 13px;
+    line-height: 13px;
+    color: #e8e8e8;
+}
+#xl .footer .footer2 .rbox .tel{
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-bottom: 45px;
+}
+.footer .footer2 .rbox .list6 .l6{
+    width: 140px;
+    height: 40px;
+    background: #444;
+    border: 1px solid #666;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 1px;
+}
+.footer .footer2 .rbox .list6 .l6 img{
+    width: 160px;
+    height: 160px;
+}
+.footer .footer2 .rbox .list6 .l6 .app{
+    position: absolute;
+    top: -70px;
+    left: -5px;
+    display: none;
+}
+.footer .footer2 .rbox .list6 .l6 .gzh{
+    position: absolute;
+    top: -70px;
+    left: 150px;
+    display: none;
+}
+.footer .footer2 .rbox .list6 .l6:hover div{
+    display: block;
+}
+.footer .footer3{
+    padding: 57px 0px;
+    background: url(../images/label_sm_90040.png) no-repeat 240px center;
+}
+.footer .footer3 p{
+    text-align: center;
+    font-size: 11px;
+    line-height: 11px;
+    white-space: pre;
+    color: #333;
+}
+
+/*-------fixed区域--------*/
+#xl .fixedbox{
+    width: 100px;
+    height: 385px;
+    position: fixed;
+    right: 25px;
+    bottom: 205px;
+    padding-top: 15px;
+    background: #fff;
+}
+#xl .fixedbox .list7 .l7{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #9b9b9b;
+    font-size: 15px;
+    line-height: 28px;
+}
+#xl .fixedbox .list7 .l7 .i2{
+    display: none;
+}
+#xl .fixedbox .list7 .l7:hover .i1{
+    display: none;
+}
+#xl .fixedbox .list7 .l7:hover .i2{
+    display: inline;
+}
+#xl .fixedbox .list7 .l7:hover p{
+    color: #ffa000;
+}
+#xl .fixedbox .list7 .erweima .ma{
+    width: 180px;
+    height: 180px;
+    background:#fff url(../images/qrcode-xl-app.png) no-repeat center center;
+    background-size: 70% 70%;
+    position: absolute;
+    left:-210px;
+    top:0px;    
+    display: none;
+}
+#xl .fixedbox .list7 .erweima:hover .ma{
+    display: block;
+}

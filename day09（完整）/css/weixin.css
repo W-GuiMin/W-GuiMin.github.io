@@ -1,0 +1,88 @@
+*{margin: 0;padding: 0;}
+html,body{
+    height: 100%;
+}
+#weixin{
+    width: 990px;
+    margin: auto;
+    background: #f0f0f0;
+}
+#weixin .left{
+    width: 244px;
+    padding-bottom: 62px;
+    border-bottom: 1px solid #dedede;
+    float: left;
+}
+#weixin .left h2{
+    background: url(../images/weixin.png) no-repeat 8px center,url(../images/bg.png);
+    padding-left: 70px;
+    font-size: 22px;
+    color: #4c4c4c;
+    line-height: 60px;
+}
+.left ul{
+    padding-left: 51px;
+    overflow: hidden;
+}
+.left ul li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 26px;
+    color: #4c4c4c;
+}
+#weixin .right{
+    width: 700px;
+    /* padding-bottom: 62px; */
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+    padding:20px;
+}
+#weixin .right h2{
+    background: #f3e1c9 url(..//images/bg2.png) no-repeat right bottom;
+    padding: 32px 195px 32px 32px;
+    font-size: 22px;
+    color: #4c4c4c;
+    line-height: 60px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #b9796f;
+}
+#weixin .right ul{
+    overflow: hidden;
+}
+#weixin .right ul li{
+    /* overflow: hidden;解决高度塌陷：缺点 会隐藏定位以外的 */
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 0px 20px 20px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    height: 0px;
+    display: block;
+    visibility: hidden;
+}
+.right ul li .div1{
+    width: 160px;
+    height: 107px;
+    margin-right: 20px;
+    float: left;
+    background: url(../images/n1.png);
+}
+.right ul li .div2{
+    width: 500px;
+    float: left;
+    padding-bottom: 20px;
+}
+.right ul li .div2 h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+.right ul li .div2 p{
+    font-size: 12px;
+    line-height: 30px;
+    color: #aaa;
+}
