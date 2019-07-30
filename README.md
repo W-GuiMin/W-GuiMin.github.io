@@ -18,4 +18,4 @@
 <a href="https://w-guimin.github.io/day09%EF%BC%88%E5%AE%8C%E6%95%B4%EF%BC%89/html/%E5%B0%8F%E9%B9%BF.html">小鹿</a>
 
 # day10
-<a href="https://w-guimin.github.io/day09%EF%BC%88%E5%AE%8C%E6%95%B4%EF%BC%89/html/%E5%B0%8F%E9%B9%BF.html">管理系统</a>
+<a href="https://w-guimin.github.io/day10/html/%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.html">管理系统</a>
