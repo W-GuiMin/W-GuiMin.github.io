@@ -1,0 +1,43 @@
+#table{
+    width: 713px;
+    height: 398px;
+    margin: 100px auto;
+}
+#table caption{
+    font-size: 18px;
+    line-height: 40px;
+    color: #000;
+    text-align: center;
+}
+#table .t1{
+    width: 598px;
+    height: 240px;
+    border: 1px solid #0047e1;
+    border-spacing: 0px;
+}
+#table .t1 .th1{
+    height: 20px;
+    font-size: 11px;
+    line-height: 20px;
+    color: #fff;
+    background: #0047e1;
+}
+#table .tb2 .th2,#table .tb3 .th3{
+    height: 20px;
+    font-size: 11px;
+    color: #fff;
+    background: #0047e1;
+    line-height: 20px;
+    text-align: left;
+    opacity: 0.5;
+}
+#table .tb2 .th2-2:nth-child(2n+1){
+    background: #fef0f5;
+}#table .tb3 .th3-2:nth-child(2n+1){
+    background: #fef0f5;
+}
+td{
+  font-size: 11px;
+  color: #666;
+  text-align: center;  
+}

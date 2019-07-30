@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    label {
+        display: inline-block;
+        width: 60px;
+        text-align: right;
+        margin-top: 22px;
+    }
+
+    input {
+        width: 350px;
+        height: 40px;
+        margin-top: 22px;
+    }
+
+    div {
+        width: 500px;
+        height: 410px;
+        margin: 100px auto;
+        border: 1px solid #333;
+        text-align: center;
+    }
+
+    .tijiao {
+        width: 350px;
+        height: 50px;
+        background: #3f89ec;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        line-height: 50px;
+    }
+
+    .yuedu {
+        font-size: 12px;
+    }
+
+    .yuedu a {
+        text-decoration: none;
+        color: #1b66ca;
+    }
+</style>
+
+<body>
+    <div>
+        <form action="">
+            <label for="username">用户名 </label>
+            <input type="text" id="username" placeholder="请设置用户名">
+            <br>
+            <label for="tel">手机号 </label>
+            <input type="text" id="tel" placeholder="可用于登录和找回密码">
+            <br>
+            <label for="password">密码 </label>
+            <input type="password" id="password" placeholder="请设置登录密码">
+            <br>
+            <label for="yanzheng">验证码 </label>
+            <input type="text" id="yanzheng" style="width: 180px;" placeholder="请输入验证码">
+            <input type="button" style="width: 160px;" value="获取短信验证码">
+            <br>
+            <input type="checkbox" value="" style="width: 12px;height: 12px;">
+            <span class="yuedu">阅读并接受 <a href="">《百度用户协议》</a>及<a href="">《百度隐私保护声明》</a></span>
+            <br>
+            <input type="submit" value="提交" class="tijiao">
+        </form>
+    </div>
+</body>
+
+</html>

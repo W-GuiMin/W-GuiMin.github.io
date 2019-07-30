@@ -1,0 +1,246 @@
+*{margin: 0;padding: 0;}
+html,
+body{
+    height: 100%;
+}
+#xitong{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #407fc2;
+}
+#xitong .top{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 87px;
+    background: #7ab5e9;
+    border-bottom: 2px double #265fa6;
+}
+#xitong .top .title{
+    font-size: 23px;
+    line-height: 87px;
+    color: #fff;
+    padding-left: 30px;
+}
+#xitong .top .header{
+    width: 263px;
+    height: 22px;
+    background:url(../images/head-l.jpg) no-repeat left center,url(../images/head-r.jpg) no-repeat right center;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    text-align: center;
+}
+#xitong .top .header .p1{
+    position: absolute;
+    top: 0px;
+    left: 8px;;
+    width: 247px;
+    height: 100%;
+    border-bottom:1px solid #e3e2e2; 
+    background:  #fff ;
+    font-size: 11px;
+    line-height: 22px;
+    color: #6d6d6d;
+}
+#xitong .top .header .p1 .sp1{
+    display: inline-block;
+    width: 130px;
+    background: url(../images/dl.png) no-repeat left center;
+}
+#xitong .top .header .p1 .sp2{
+    display: inline-block;
+    width: 60px;
+    background: url(../images/tc.png) no-repeat left center;
+}
+#xitong .top .list{
+    height: 53px;
+    position: absolute;
+    right: 20px;
+    top: 33px;
+    border-bottom: 1px solid #265fa6;
+    background: #7ab5e9;
+}
+#xitong .top .list .list1 .li{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    list-style: none;
+    width: 85px;
+    height: 100%;
+    margin-right: 15px;
+}
+#xitong .top .list .list1 .i2{
+    display: none;
+}
+#xitong .top .list .list1 .li:hover{
+    border-bottom: none;
+    background: url(../images/libj.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: 7px;
+}
+#xitong .top .list .list1 .li:hover .i1{
+    display: none;
+}
+#xitong .top .list .list1 .li:hover .i2{
+    display: inline;
+}
+
+
+/**/
+#xitong .bottom{
+    border-top: 1px solid #265fa6;
+}
+#xitong .bottom .left{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 195px;
+    height: 100%;
+    background: #417ec8;
+}
+#xitong .bottom .left .box1{
+    width: 100%;
+    height: 27px;
+    background: url(../images/e_01.jpg);
+    border-bottom: 1px solid #265fa6;
+    border-right: 1px solid #265fa6;
+}
+#xitong .bottom .left .list2{
+    width: 100%;
+    list-style: none;
+}
+#xitong .bottom .left .list2 .li2{
+    line-height: 32px;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 40px;
+    list-style: none;
+    background: url(../images/left_04.jpg) no-repeat 0px top;
+}
+/* #xitong .bottom .left .list2 .li2 .l1{
+    width: 100%;
+    background:url(../images/left_01.jpg) no-repeat left center;
+} */
+#xitong .bottom .left .list2 .li2 img{
+    display: inline-block;
+    margin-right: 5px;
+}
+#xitong .bottom .left .list2 .li2 .m2{
+    display: none;
+}
+#xitong .bottom .left .list2 .li2:hover .m2{
+    display: inline-block;
+}
+#xitong .bottom .left .list2 .li2:hover .m1{
+    display: none;
+}
+#xitong .bottom .left .list2 .li2:hover{
+    color: #333;
+    background: #fff;
+}
+#xitong .bottom .left .list2 .l1 .list3{
+    display: none;
+    background: #417ec8;
+    list-style-position: inside;
+    list-style-image: url(../images/jiao.png);
+    font-size: 12px;
+    color: #adddf6;
+    width: 195px;
+    margin-left: -40px;
+
+}
+#xitong .bottom .left .list2 .l1 .list3 .li3{
+    padding-left: 40px;
+    width: 100%;
+}
+#xitong .bottom .left .list2 .l1:hover .list3{
+    display: block;
+}
+#xitong .bottom .left .list2 .l1 .list3 .li3:hover{
+    color: #333;
+    background: #fff;
+}
+#xitong .bottom .right{
+    width: clac(100% - 195px);
+    padding-left: 15px;
+}
+#xitong .bottom .right .box3{
+    font-size: 11px;
+    line-height: 24px;
+    color: #636363;
+    border-bottom: 1px solid #e3e3e3;
+    padding-left: 15px;
+    background: url(../images/home.jpg) no-repeat left center;
+}
+#xitong .bottom .right .sousuo{
+    background: url(../images/t.jpg) no-repeat right top;
+}
+#xitong .bottom .right .sousuo .sp3{
+    font-size: 12px;
+    line-height: 50px;
+    color: #333;
+    font-weight: bold;
+    padding-left: 30px;
+    background: url(../images/seacth.jpg) no-repeat;
+}
+#xitong .bottom .right .sousuo label{
+    display: inline-block;
+    width: 95px;
+    font-size: 12px;
+    color: #333;
+    text-align: right;
+}
+/* #xitong .bottom .right .biao .p4{
+    position: absolute;
+    top: 90px;
+    right: 0;
+    font-size: 12px;
+    line-height: 30px;
+} */
+#xitong .bottom .right .biao table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+    font-size: 12px;
+    line-height: 30px;
+}
+#xitong .bottom .right .biao table tr:nth-child(2n){
+    background: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#xitong .bottom .right{
+    position: absolute;
+    top: 90px;
+    left: 195px;
+    width:calc(100% - 195px);
+    height: calc(100% - 90px);
+    background: #fff;
+}
