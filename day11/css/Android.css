@@ -1,0 +1,73 @@
+html,
+body{
+    background: #ccc;
+}
+
+#box{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    background: #ccc;
+    border: 1px solid #ff0000;
+    position: relative;
+}
+#box .head{
+    width: 200px;
+    height: 100px;
+    background: #51a251;
+    position: absolute;
+    left: 150px;
+    top:20px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+#box .head .eye{
+    width: 20px;
+    height: 20px;   
+    background: #fff;
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+}
+#box .head .e-left{
+    left: 60px;
+}
+#box .head .e-right{
+    right: 60px;
+}
+#box .body{
+    width: 200px;
+    height: 230px;
+    background: #51a251;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    border-radius: 0 0 16px 16px / 0 0 16px 16px;
+}
+#box .hand{
+    width: 30px;
+    height: 180px;
+    background: #51a251;
+    position: absolute;
+    top: 140px;
+    border-radius: 9px / 9px;
+}
+#box .h-left{
+    left: 110px;
+}
+#box .h-right{
+    right: 110px;
+}
+#box .foot{
+    width: 30px;
+    height: 80px;
+    background: #51a251;
+    position: absolute;
+    bottom: 60px;
+    border-radius: 0 0 50% 50% / 0 0 11px 11px;
+}
+#box .f-left{
+    left: 190px;
+}
+#box .f-right{
+    right: 190px;
+}
