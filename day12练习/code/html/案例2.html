@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #box .box1 {
+            width: 500px;
+            height: 250px;
+            background: orange;
+            border: 1px solid #ccc;
+            position: relative;
+            border-radius: 5px;
+        }
+
+        #box .box1 span {
+            display: block;
+            width: 0px;
+            height: 0px;
+            border: 20px solid transparent;
+            border-left-color: #ccc;
+            position: absolute;
+            top: 50px;
+            right: -40px;
+        }
+
+        #box .box1 span::after {
+            content: "";
+            display: block;
+            width: 0px;
+            height: 0px;
+            border: 19px solid transparent;
+            border-left-color: orange;
+            position: absolute;
+            top: -19px;
+            left: -21px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+
+        <div class="box1">
+            <span></span>
+        </div>
+    </div>
+</body>
+
+</html>
