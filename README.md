@@ -26,3 +26,6 @@
 # day12
 <p><a href="https://w-guimin.github.io/day12%E7%BB%83%E4%B9%A0/code/html/%E6%A1%88%E4%BE%8B.html#box3">手风琴案例练习</a></p>
 <p><a href="https://w-guimin.github.io/day12%E7%BB%83%E4%B9%A0/code/html/%E6%A1%88%E4%BE%8B2.html#box3">对话框练习</a></p>
+
+# day14
+<p><a href="https://w-guimin.github.io/day14/code/html/%E7%BB%83%E4%B9%A0.html">支付宝移动端练习</a></p>
