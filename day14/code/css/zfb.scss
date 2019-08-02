@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+ul,li{
+    list-style: none;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+#zfb{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .zfb-header{
+        height: 160px;
+        background: #3f454f;
+        display: flex;
+        flex-direction: column;
+        .list{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            :nth-child(1){
+                flex: 6;
+            }
+            li{
+                flex: 1;
+                font-size: 20px;
+                color: #fff;
+                span{
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .list2{
+            flex: 3;
+            display: flex;
+            align-items: center;
+            li{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i{
+                    font-size: 37px;
+                    line-height: 37px;
+                    color: #fff;
+                }
+                span{
+                    margin-top: 15px;
+                    font-size: 15px;
+                    line-height: 15px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .zfb-main{
+        flex: 1;
+        .list2{
+            display: flex;
+            flex-wrap: wrap;
+            border-top: 1px solid #e6e6e6;
+            li:nth-child(4n-1),li:nth-child(4n-2),li:nth-child(4n-3){
+                border-right: 1px solid #e6e6e6;
+            }
+            li:nth-child(1),li:nth-child(4),li:nth-child(7),li:nth-child(8){
+                i{
+                    color: #00aaee;
+                }
+            }
+            li:nth-child(n+15){
+                i{
+                    color: #00aaee;
+                }
+            }
+            li:nth-child(5),li:nth-child(9),li:nth-child(10),li:nth-child(13),li:nth-child(14){
+                i{
+                    color: #f96268;
+                }
+            }
+            li:nth-child(2),li:nth-child(11){
+                i{
+                    color: #36bc99;
+                }
+            }
+            li:nth-child(6),li:nth-child(12){
+                i{
+                    color: #ffb359;
+                }
+            }
+            li:nth-child(3){
+                i{
+                    color: #dd2727;
+                }
+            }
+            li:nth-child(18){
+                i{
+                    color: #dcdcdc;
+                }
+            }
+            li{
+                width: 25%;
+                height: 20%;
+                border-bottom: 1px solid #e6e6e6;
+                border-collapse: collapse;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i{
+                    font-size: 27px;
+                    line-height: 27px;
+                }
+                span{
+                    margin-top: 11px;
+                    font-size: 12px;
+                    line-height: 12px;
+                    color: #4f4f4f;
+                }
+            }
+        }
+    }
+    .zfb-footer{
+        height: 50px;
+        .list2{
+            display: flex;
+            align-items: center;
+            li:nth-child(1){
+                i{
+                    color: #00aaee;
+                }
+                span{
+                    color: #00aaee;
+                }
+            }
+            li{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                i{
+                    font-size: 22px;
+                    line-height: 22px;
+                    color: #929292;
+                }
+                span{
+                    margin-top: 3px;
+                    font-size: 9px;
+                    line-height: 9px;
+                    color: #929292;
+                }
+            }
+        }
+    }
+}
