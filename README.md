@@ -33,5 +33,5 @@
 # day15
 <p><a href="https://w-guimin.github.io/day15/code1/html/Ghost%20%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2.html">开源博客</a></p>
 
-# PC端机试
+# PC端
 <p><a href="https://w-guimin.github.io/%E5%8C%BB%E7%94%9F%E5%B7%A5%E4%BD%9C%E7%AB%99/html/%E5%8C%BB%E7%94%9F%E5%B7%A5%E4%BD%9C%E7%AB%99.html">医生工作站</a></p>
